@@ -57,7 +57,7 @@ Note: Tkinter is included by default with Python, so you may not need to install
 To run the program, execute the following command:
 
 ```bash
-python date_calculator.py
+python daycal.py
 ```
 
 This will open the application window where you can use the **Days Difference** and **Future Date** features.
