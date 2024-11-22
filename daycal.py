@@ -24,10 +24,22 @@ def calculate_future_date():
     except ValueError:
         future_date_label.config(text="Error: Please enter valid input.")
 
+# Function to clear the Days Difference inputs and result
+def clear_days_inputs():
+    entry_date1.delete(0, tk.END)
+    entry_date2.delete(0, tk.END)
+    result_label.config(text="")
+
+# Function to clear the Future Date inputs and result
+def clear_future_inputs():
+    entry_date.delete(0, tk.END)
+    entry_days.delete(0, tk.END)
+    future_date_label.config(text="")
+
 # Create the main window
 root = tk.Tk()
 root.title("Date Calculator")
-root.geometry("400x500")
+root.geometry("400x550")
 root.configure(bg="#1e1e1e")  # Dark background
 
 # Set dark mode styling
@@ -67,6 +79,10 @@ calculate_button.pack(pady=10)
 result_label = ttk.Label(root, text="", font=("Arial", 12))
 result_label.pack(pady=10)
 
+# Clear Days Difference Button
+clear_button1 = ttk.Button(root, text="Clear", command=clear_days_inputs)
+clear_button1.pack(pady=5)
+
 # Future Date Section
 frame2 = tk.Frame(root, bg="#1e1e1e")
 frame2.pack(pady=10)
@@ -87,8 +103,12 @@ future_date_button.pack(pady=10)
 future_date_label = ttk.Label(root, text="", font=("Arial", 12))
 future_date_label.pack(pady=10)
 
+# Clear Future Date Button
+clear_button2 = ttk.Button(root, text="Clear", command=clear_future_inputs)
+clear_button2.pack(pady=5)
+
 # About Section
-about_label = ttk.Label(root, text="Created by Raymond C. Turner - v0.0.4", font=("Arial", 8))
+about_label = ttk.Label(root, text="Created by Raymond C. Turner - v0.1.4", font=("Arial", 8))
 about_label.pack(side="bottom", pady=10)
 
 # Run the application
