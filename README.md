@@ -1,35 +1,77 @@
-# Days Difference Calculator
+# Date Calculator
 
-A Python-based application that calculates the difference in days between two given dates. This program comes with a modern dark-themed user interface, created using Tkinter, and supports user input for date calculations.
+A simple Python-based application that provides two date-related features:
+1. **Days Difference Calculation**: Calculate the number of days between two dates.
+2. **Future Date Calculation**: Calculate a future date after adding a specified number of days to a given start date.
+
+This application uses Python's `Tkinter` library to provide a modern dark-themed user interface.
 
 ## Features
 
-- **Dark Mode UI**: Stylish and user-friendly dark-themed interface.
-- **Custom Date Input**: Enter any start and end dates in `YYYY-MM-DD` format.
-- **Real-time Calculation**: Instantly computes the difference in days with the click of a button.
-- **About Section**: Displays author information.
+- **Days Difference**: Calculate the difference in days between two dates.
+- **Future Date**: Calculate a future date by adding a specified number of days to a given start date.
+- **Dark Mode UI**: The user interface is styled with a modern dark theme for ease of use.
 
 ## Requirements
 
-This program requires Python 3.6 or higher. It uses the built-in `datetime` and `tkinter` modules, so no additional installations are needed.
+- Python 3.6 or higher
+- Tkinter (pre-installed with Python)
 
-## How to Run
+## Installation and Setup
 
-1. Clone this repository or download the source code.
-   ```bash
-   git clone https://github.com/yourusername/days-difference-calculator.git
-   cd days-difference-calculator
-   ```
-2. Run the script:
-   ```bash
-   python days_calculator.py
-   ```
+Follow the steps below to set up the project on your local machine:
+
+### 1. Clone the repository
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/date-calculator.git
+cd date-calculator
+```
+
+### 2. Create a Virtual Environment
+
+#### For Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### For macOS/Linux:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+Install any required dependencies (if applicable, such as `tkinter` or others):
+
+```bash
+pip install -r requirements.txt
+```
+
+Note: Tkinter is included by default with Python, so you may not need to install anything extra.
+
+### 4. Run the Program
+
+To run the program, execute the following command:
+
+```bash
+python date_calculator.py
+```
+
+This will open the application window where you can use the **Days Difference** and **Future Date** features.
 
 ## Usage
 
-1. Enter the **Start Date** and **End Date** in the respective input fields. Ensure the dates are in `YYYY-MM-DD` format.
-2. Click the **Calculate** button to compute the difference in days.
-3. The result will be displayed below the button.
+### Days Difference Calculation
+1. Enter a **Start Date** and **End Date** in the format `DD-MM-YYYY`.
+2. Click **Calculate Days Difference** to get the number of days between the two dates.
+
+### Future Date Calculation
+1. Enter a **Start Date** in the format `DD-MM-YYYY`.
+2. Enter the number of **Days to Add**.
+3. Click **Calculate Future Date** to calculate the future date.
 
 ## Screenshot
 
@@ -37,8 +79,9 @@ This program requires Python 3.6 or higher. It uses the built-in `datetime` and 
 
 ## About
 
-Created by Raymond C. Turner.  
-Feel free to reach out for feedback or collaboration.
+Created by **Raymond C. Turner**.
+
+Feel free to reach out for feedback, questions, or contributions.
 
 ## License
 
