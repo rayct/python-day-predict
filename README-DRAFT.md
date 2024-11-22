@@ -86,23 +86,3 @@ Feel free to reach out for feedback, questions, or contributions.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-```
-
----
-
-### Key Sections:
-
-- **Project Title**: "Date Calculator"
-- **Description**: Explains the functionality of the program.
-- **Features**: Lists the two primary features (Days Difference and Future Date calculation).
-- **Requirements**: Specifies that Python 3.6 or higher is required, and mentions Tkinter.
-- **Installation & Setup**: Detailed instructions for cloning the repo, setting up a virtual environment, installing dependencies, and running the program.
-- **Usage**: Explains how to use both the Days Difference and Future Date calculation features.
-- **Screenshot**: Placeholder for a screenshot image (`screenshot.png`).
-- **About**: Mentions the author and encourages feedback.
-- **License**: Placeholder for project license (MIT License).
-
-### Notes:
-- Ensure you have a screenshot image (`screenshot.png`) in your project folder, or update the `README.md` if you prefer a different image name.
-- If there are any specific dependencies in the future (like a library that is not part of the Python standard library), list them in the `requirements.txt` and update the installation instructions accordingly.
