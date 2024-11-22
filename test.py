@@ -26,7 +26,7 @@ def calculate_future_date():
 
 # Create the main window
 root = tk.Tk()
-root.title("Date Calculator")
+root.title("Date Calculator - TEST")
 root.geometry("400x500")
 root.configure(bg="#1e1e1e")  # Dark background
 
