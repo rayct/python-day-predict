@@ -88,7 +88,7 @@ future_date_label = ttk.Label(root, text="", font=("Arial", 12))
 future_date_label.pack(pady=10)
 
 # About Section
-about_label = ttk.Label(root, text="Created by Raymond C. Turner", font=("Arial", 8))
+about_label = ttk.Label(root, text="Created by Raymond C. Turner - v0.0.4", font=("Arial", 8))
 about_label.pack(side="bottom", pady=10)
 
 # Run the application
