@@ -56,7 +56,7 @@ result_label = ttk.Label(root, text="", font=("Arial", 12))
 result_label.pack(pady=10)
 
 # About Section
-about_label = ttk.Label(root, text="About: Created by [Your Name]", font=("Arial", 8))
+about_label = ttk.Label(root, text="About: Created by Ray C. Turner", font=("Arial", 8))
 about_label.pack(side="bottom", pady=10)
 
 # Run the application
